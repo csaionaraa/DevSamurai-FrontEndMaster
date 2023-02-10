@@ -2,17 +2,17 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <script>
         var idioma = prompt("Por favor, digite o código do IDIOMA")
-        
-        if(idioma == "pt"){
+        var variacao = prompt("Por favor, digite a variação")
+
+        // (idioma == "pt") && (variacao && "br" // variacao == "pt")
+        if((idioma == "pt")&&(variacao == "br" || variacao == "pt")){
             alert(Olá)
-        } else if (idioma == "en"){
+        } else if (idioma == "en" && variacao == "us"){
             alert("Hi")
-        } else if (idioma == "fr"){
-            alert("Salut")
-        } else if (idioma == "es"){
-            alert("Hola")  
+        } else if (idioma == "en" && variacao == "gb"){
+            alert("Hello")
         } else {
-            alert("Código do idioma não identificado")
+            alert("Idioma e/ou variação não reconhecido(s)")
         }
     </script>
 </html>

@@ -1,0 +1,25 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+        function soma (a, b){
+            return a + b
+        }
+        function subtracao (a, b){
+            return a - b
+        }
+        var n1 = Number(prompt("Digite o numero 1"))
+        var n2 = Number(prompt("Digite o numero 2"))
+        var op = prompt("Digite o código da operação?")
+
+        var resultado
+        if (op == "+"){
+            resultado = soma(n1, n2)
+            alert(resultado)
+        } else if (op == "-"){
+            resultado = subtracao(n1, n2)
+            alert(resultado)
+        } else {
+            alert("Operação não encontrada")
+        }
+    </script>
+</html>
