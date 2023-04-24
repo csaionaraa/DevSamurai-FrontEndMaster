@@ -1,2 +1,2 @@
 # DevSamurai-FrontEndMaster
-Atividades feitas em aula na plataforma DevSamurai
+Activities done in class on the DevSamurai platform.
